@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>匹配结果</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="/vuetify/vuetify.min.css" rel="stylesheet">
+    <link href="/wechat_site/css/show_result.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <meta http-equiv="proma" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no cache"/>
+    <meta http-equiv="expires" content="0"/>
+</head>
+<body>
+<div id="app">
+    <v-app id="inspire">
+        <v-jumbotron color="grey lighten-2">
+            <v-container fill-height>
+                <v-layout align-center>
+                    <v-flex>
+                        <h4 class="display-3">匹配结果</h4>
+                        <span class="subheading">快去和TA聊天吧(*^▽^*)</span>
+                        <v-divider class="my-3"></v-divider>
+                        <div class="title mb-3">姓名: {{matchingObject.name}}</div>
+                        <div class="title mb-3">姓名: {{matchingObject.birthday}}</div>
+                        <div class="title mb-3">姓名: {{matchingObject.wechatNumber}}</div>
+                        <div class="title mb-3">姓名: {{matchingObject.university}}</div>
+                        <div class="title mb-3">姓名: {{matchingObject.college}}</div>
+                        <div class="title mb-3">姓名: {{matchingObject.major}}</div>
+                    </v-flex>
+                </v-layout>
+            </v-container>
+        </v-jumbotron>
+    </v-app>
+</div>
+</div>
+</body>
+<script src="/js/vue.js"></script>
+<script src="/js/axios.js"></script>
+<script src="/vuetify/vuetify.js"></script>
+<script src="/js/vuelidate/vuelidate.min.js"></script>
+<script src="/js/vuelidate/validators.min.js"></script>
+
+<script src="/wechat_site/javascript/show_result.js"></script>
+
+</html>

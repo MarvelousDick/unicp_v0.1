@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="705201aa-3927-4c41-8598-c9f33562ba53" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/weixin/controller/VueTestController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/weixin/controller/WechatInterfaceController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/weixin/service/WechatInterfaceService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/resources/a_little_config.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/resources/webdefault.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/MP_verify_2GWw8fgIliPcWKXO.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/alert.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/aside.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/autocomplete.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/badge.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/base.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/breadcrumb-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/breadcrumb.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/button-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/card.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/carousel-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/cascader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/checkbox-button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/checkbox-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/col.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/collapse-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/collapse.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/color-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/container.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/date-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/display.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/dropdown-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/dropdown-menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/fonts/element-icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/fonts/element-icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/footer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/form-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/input-number.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/input.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/loading.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/menu-item-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/menu-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/message-box.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/message.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/notification.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/option-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/option.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/popover.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/popper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/progress.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/radio-button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/radio-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/radio.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/rate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/select-dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/step.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/steps.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/submenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/switch.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/tab-pane.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/table-column.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/tag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/time-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/time-select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/transfer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_boy/upload.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/alert.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/aside.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/autocomplete.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/badge.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/base.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/breadcrumb-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/breadcrumb.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/button-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/card.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/carousel-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/cascader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/checkbox-button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/checkbox-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/col.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/collapse-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/collapse.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/color-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/container.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/date-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/display.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/dropdown-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/dropdown-menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/fonts/element-icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/fonts/element-icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/footer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/form-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/input-number.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/input.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/loading.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/menu-item-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/menu-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/message-box.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/message.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/notification.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/option-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/option.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/popover.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/popper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/progress.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/radio-button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/radio-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/radio.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/rate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/select-dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/step.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/steps.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/submenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/switch.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/tab-pane.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/table-column.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/tag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/time-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/time-select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/transfer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_girl/upload.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/alert.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/aside.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/autocomplete.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/badge.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/base.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/breadcrumb-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/breadcrumb.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/button-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/card.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/carousel-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/cascader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/checkbox-button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/checkbox-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/col.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/collapse-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/collapse.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/color-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/container.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/date-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/display.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/dropdown-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/dropdown-menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/fonts/element-icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/fonts/element-icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/footer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/form-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/input-number.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/input.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/loading.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/main.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/menu-item-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/menu-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/message-box.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/message.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/notification.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/option-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/option.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/popover.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/popper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/progress.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/radio-button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/radio-group.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/radio.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/rate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/row.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/scrollbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/select-dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/step.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/steps.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/submenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/switch.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/tab-pane.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/table-column.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/tag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/time-picker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/time-select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/transfer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/element_mid/upload.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/manage.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/muse-ui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/structure.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/theme-dark.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/img/bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/img/left2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/img/right2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/img/vbanner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/__bs_script__.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/axios.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/jquery-1.4.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/jquery-3.1.1.slim.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/structure.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/tether.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/veevalidata/vee-validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/vue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/vuelidate/validators.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/js/vuelidate/vuelidate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/vuetify/fonts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/vuetify/vuetify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/vuetify/vuetify.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/child_pages/contact_us.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/child_pages/show_result.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/child_pages/user_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/css/contact_us.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/css/show_result.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/css/structure.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/css/user_form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/javascript/contact_us.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/javascript/show_result.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/javascript/structure.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/javascript/user_form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/wechat_site/user_interface.html" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/pom.xml" afterPath="$PROJECT_DIR$/weixin_guide5/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/common/APPConfig.java" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/common/APPConfig.java" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/model/Idea.java" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/model/Idea.java" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/model/Stock.java" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/model/Stock.java" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/model/TUser.java" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/model/TUser.java" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/weixin/controller/WeiXinOauthController.java" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/java/com/javen/weixin/controller/WeiXinOauthController.java" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/src/main/resources/javen_config.txt" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/resources/javen_config.txt" />
+      <change beforePath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/index.css" afterPath="$PROJECT_DIR$/weixin_guide5/src/main/webapp/css/index.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/weixin_guide5" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java EE\apache-maven-3.5.0-bin\repository" />
+        <option name="mavenHome" value="D:/Java EE/apache-maven-3.5.0-bin/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Java EE\apache-maven-3.5.0-bin\setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1019" />
+    <option name="width" value="1547" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Lint</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_guide5" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Temash\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="705201aa-3927-4c41-8598-c9f33562ba53" name="Default" comment="" />
+      <created>1521456570049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521456570049</updated>
+      <workItem from="1521456571399" duration="92000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="92000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1019" y="0" width="1547" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Material Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24949153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24949153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

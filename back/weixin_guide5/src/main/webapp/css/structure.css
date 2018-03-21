@@ -1,0 +1,56 @@
+/* This is for documentation purposes and will not be needed in your application */
+html, body {
+    height: 100%;
+}
+
+#content {
+    /*top: 100px;*/
+    position: relative;
+    padding-top: 40px;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+#bottom-card {
+    height: max-content;
+    position: fixed;
+    width: 100%;
+    /*margin-top: 300px;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+    /*height: fit-content;*/
+    /*height: 900px;*/
+}
+
+#task-component {
+    height: 100%;
+    padding-bottom: 16%;
+    z-index: 9;
+}
+
+#bottom {
+    height: 100%;
+}
+
+#bottom-bar {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 12;
+}
+
+#bottom-bar-field {
+    position: relative;
+    bottom: 0px;
+    z-index: 12;
+}
+
+#sign-up-buttons, #self-info-buttons, #see-results-buttons {
+    position: absolute;
+    margin-top: 37.2%;
+    width: 100%;
+}
+
+.button {
+    margin-bottom: 10px;
+}

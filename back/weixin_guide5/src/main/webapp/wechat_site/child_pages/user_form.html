@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资料填写</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="/vuetify/vuetify.min.css" rel="stylesheet">
+    <link href="/wechat_site/css/user_form.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <meta http-equiv="proma" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no cache"/>
+    <meta http-equiv="expires" content="0"/>
+
+</head>
+<body>
+<div id="user-form">
+    <span class="headline">我的资料</span>
+    <v-app id="inspire">
+        <v-container fluid>
+            <form>
+                <div id="form-field">
+                    <v-text-field
+                            label="昵称"
+                            v-model="basicInfo.nickName"
+                            :error-messages="nickNameErrors"
+                            :counter="10"
+                            @input="$v.basicInfo.nickName.$touch()"
+                            @blur="$v.basicInfo.nickName.$touch()"
+                            required
+                    ></v-text-field>
+
+                    <v-layout row wrap>
+                        <v-flex xs6>
+                            <v-subheader>性别</v-subheader>
+                        </v-flex>
+                        <v-flex xs6>
+                            <v-select
+                                    :items="sexItems"
+                                    v-model="basicInfo.sex"
+                                    label="请选择"
+                                    single-line
+                                    bottom
+                            ></v-select>
+                        </v-flex>
+                        <v-flex xs6>
+                            <v-subheader>匹配性别</v-subheader>
+                        </v-flex>
+                        <v-flex xs6>
+                            <v-select
+                                    :items="sexItems"
+                                    v-model="basicInfo.requiredSex"
+                                    label="请选择"
+                                    single-line
+                                    bottom
+                            ></v-select>
+                        </v-flex>
+                        <v-menu
+                                ref="menu"
+                                lazy
+                                :close-on-content-click="false"
+                                v-model="menu"
+                                locale="zh-cn"
+                                transition="scale-transition"
+                                offset-y
+                                full-width
+                                :nudge-right="40"
+                                min-width="290px"
+                        >
+                            <v-text-field
+                                    slot="activator"
+                                    label="生日"
+                                    v-model="basicInfo.birthday"
+                                    prepend-icon="event"
+                                    readonly
+                            ></v-text-field>
+                            <v-date-picker
+                                    ref="picker"
+                                    v-model="basicInfo.birthday"
+                                    @change="save"
+                                    min="1950-01-01"
+                                    color="green lighten-1"
+                                    locale="zh-cn"
+                                    :max="new Date().toISOString().substr(0, 10)"
+                            ></v-date-picker>
+                        </v-menu>
+                    </v-layout>
+
+                    <v-text-field
+                            label="微信号"
+                            v-model="basicInfo.wechatNumber"
+                            :error-messages="wechatNumberErrors"
+                            @input="$v.basicInfo.wechatNumber.$touch()"
+                            @blur="$v.basicInfo.wechatNumber.$touch()"
+                            required
+                    ></v-text-field>
+
+                    <v-text-field
+                            label="QQ号"
+                            v-model="basicInfo.qqNumber"
+                            :error-messages="qqNumberErrors"
+                            :counter="11"
+                            @input="$v.basicInfo.qqNumber.$touch()"
+                            @blur="$v.basicInfo.qqNumber.$touch()"
+                    ></v-text-field>
+
+                    <v-layout row wrap>
+                        <v-flex xs6 sm6>
+                            <v-subheader v-text="'所在地'"></v-subheader>
+                        </v-flex>
+                        <v-flex xs6 sm6>
+                            <v-select
+                                    :items="states"
+                                    v-model="basicInfo.location"
+                                    label=""
+                                    autocomplete
+                            ></v-select>
+                        </v-flex>
+
+                        <v-flex xs6 sm6>
+                            <v-subheader v-text="'家乡'"></v-subheader>
+                        </v-flex>
+                        <v-flex xs6 sm6>
+                            <v-select
+                                    :items="states"
+                                    v-model="basicInfo.homeTown"
+                                    label=""
+                                    autocomplete
+                            ></v-select>
+                        </v-flex>
+                    </v-layout>
+
+                    <v-text-field
+                            label="学校"
+                            v-model="universityInfo.universityName"
+                            :error-messages="universityNameErrors"
+                            required
+                    ></v-text-field>
+                    <v-text-field
+                            label="学院"
+                            v-model="universityInfo.college"
+                            :error-messages="collegeErrors"
+                    ></v-text-field>
+                    <v-text-field
+                            label="专业"
+                            v-model="universityInfo.major"
+                            :error-messages="majorErrors"
+                    ></v-text-field>
+
+                    <v-layout row wrap>
+                        <v-flex xs6 sm6>
+                            <v-subheader v-text="'星座'"></v-subheader>
+                        </v-flex>
+                        <v-flex xs6 sm6>
+                            <v-select
+                                    :items="constellationSelect"
+                                    v-model="moreInfo.constellation"
+                                    label=""
+                                    autocomplete
+                            ></v-select>
+                        </v-flex>
+                    </v-layout>
+
+                    <v-text-field
+                            label="个人特点"
+                            v-model="moreInfo.personality"
+                            :error-messages="personalityErrors"
+                    ></v-text-field>
+                    <v-text-field
+                            label="喜欢的音乐"
+                            v-model="moreInfo.lovedMusic"
+                            :error-messages="lovedMusicErrors"
+                    ></v-text-field>
+                    <v-text-field
+                            label="喜欢的电影或电视剧"
+                            v-model="moreInfo.lovedMovieOrSeries"
+                            :error-messages="lovedMovieOrSeriesErrors"
+                    ></v-text-field>
+                    <v-text-field
+                            label="喜欢的食物"
+                            v-model="moreInfo.lovedFood"
+                            :error-messages="lovedFoodErrors"
+                    ></v-text-field>
+                    <v-text-field
+                            label="去过的地方"
+                            v-model="moreInfo.travedPlace"
+                            :error-messages="travedPlaceErrors"
+                    ></v-text-field>
+                    <v-text-field
+                            label="爱好"
+                            v-model="moreInfo.hoobie"
+                            :error-messages="hoobieErrors"
+                    ></v-text-field>
+
+
+                    <v-btn @click="submit">submit</v-btn>
+                    <v-btn @click="clear">clear</v-btn>
+                </div>
+            </form>
+        </v-container>
+    </v-app>
+</div>
+</body>
+
+<script src="/js/vue.js"></script>
+<script src="/js/axios.js"></script>
+<script src="/vuetify/vuetify.js"></script>
+<script src="/js/vuelidate/vuelidate.min.js"></script>
+<script src="/js/vuelidate/validators.min.js"></script>
+
+<script src="/wechat_site/javascript/user_form.js"></script>
+
+</html>
